@@ -95,6 +95,10 @@ windows {
   !defined(LANGDIR, var):       LANGDIR = $$PREFIX/lang
   !defined(SAMPLESDIR, var):    SAMPLESDIR = $$PREFIX/samples
   !defined(SCHEMASDIR, var):    SCHEMASDIR = $$PREFIX/schemas
+  !defined(PGSQL_LIB, var): PGSQL_LIB = C:/msys64/mingw64/bin/libpq.dll
+  !defined(PGSQL_INC, var): PGSQL_INC = C:/msys64/mingw64/include
+  !defined(XML_INC, var): XML_INC = C:/msys64/mingw64/include/libxml2
+  !defined(XML_LIB, var): XML_LIB = C:/msys64/mingw64/bin/libxml2-2.dll
 }
 
 
